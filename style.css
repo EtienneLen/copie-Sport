@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Roboto:wght@100&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    border-bottom: solid 1px #5481d4;
+
+}
+
+header .header1 {
+    background-color: #000000;
+    height: 7rem;
+    border-bottom: solid 1px;
+    border-color: #0050df;
+}
+
+header .header1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+header .header2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    height: 4rem;
+    padding-top: 1rem;
+    border-color: #252525;
+
+}
+
+header .header2 .subscribe {
+    background-color: #e60054;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    height: 2rem;
+    padding: 1rem 1rem 0.1rem 1rem;
+}
+
+header .header2 .more  {
+    background-color: #000000;
+    text-decoration: none;
+    color: #5481d4;
+    font-weight: 600;
+    height: 2rem;
+    padding: 1rem 1rem 0.1rem 1rem;
+}
+
+.main {
+    background-color: #0f0f0f;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-self: center;
+    color: white;
+}
+
+.main_heading {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.fiches {
+    padding-left: 2rem;
+}
+
+.sous_fiche {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: solid 2px #252525;
+}
+
+.fiches .sous_fiche img {
+    width: 3rem;
+    height: 2rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 1rem;
+}
+
+
+.article_wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap_component {
+    width: 30%;
+    background-color: #1a1a1a;
+    margin: 1rem;
+}
+
+.wrap_component_img img {
+    width: 100%;
+    transform: scale(1);
+}
+.wrap_component_img img:hover {
+    transform: scale(0.90);
+    width: 100%;
+    transition: 1s;
+}
+
+.wrap_component .wrap_text {
+    padding: 1rem;
+}
